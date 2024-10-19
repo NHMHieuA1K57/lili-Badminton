@@ -68,7 +68,7 @@ const HomeLayout = () => {
             </Link>
 
             {/* News Section */}
-            <NewsComponent />
+            {/* <NewsComponent /> */}
           </div>
         </div>
       </div>
