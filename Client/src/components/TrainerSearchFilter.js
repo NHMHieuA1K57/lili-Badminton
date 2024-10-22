@@ -23,7 +23,7 @@ const TrainerSearchFilter = ({ onSearch }) => {
     const { name, value } = e.target;
 
     // Chuyển đổi giá trị nhập vào thành chữ thường
-    const normalizedValue = capitalizeFirstLetter(value);
+    const normalizedValue = name === "location" || name === "otherLocation" ? capitalizeFirstLetter(value) : value;
 
     if (name === 'location' && normalizedValue === 'other') {
       setShowOther(true); // Hiển thị trường Other nếu chọn "Other"
