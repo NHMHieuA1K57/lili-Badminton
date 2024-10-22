@@ -4,7 +4,6 @@ import HomeComponent from '../components/HomeComponent'; // Import HomeComponent
 import ParticipationComponent from '../components/ParticipationComponent'; // Import ParticipationComponent
 import CoachListComponent from '../components/CoachListComponent'; // Import CoachListComponent
 import Footer from '../components/Footer'; // Import Footer component
-import NewsComponent from '../components/NewsComponent';
 import { Link } from 'react-router-dom';
 import { FaArrowUp } from 'react-icons/fa6';
 import '../styles/layouts/HomeLayout.css';
